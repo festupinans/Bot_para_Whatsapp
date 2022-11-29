@@ -6,12 +6,8 @@ from numpy.core.defchararray import upper
 
 book = openpyxl.load_workbook('aver.xlsx', data_only=True)
 hoja = book.active
-
 celdas = hoja['A2' : 'B5']
-
 list_numeros = []
-
-
 
 for numero in list_numeros:
     seconds = time.time() + 60
